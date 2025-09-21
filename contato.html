@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contato - Trabalho 1</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Formulário de Contato</h1>
+    <nav><a href="index.html">Voltar à Principal</a></nav>
+  </header>
+
+  <main>
+    <form>
+      <h2>Dados Pessoais</h2>
+      <label>Nome*: <input type="text" name="nome" required></label><br>
+      <label>Email*: <input type="email" name="email" required></label><br>
+      <label>Idade*: <input type="number" name="idade" required></label><br>
+      <label>Telefone*: <input type="tel" name="telefone" required></label><br>
+      <label>Data de Nascimento: <input type="date" name="nascimento"></label><br>
+      <label>Sexo:
+        <select name="sexo">
+          <option value="">Selecione</option>
+          <option value="masc">Masculino</option>
+          <option value="fem">Feminino</option>
+          <option value="outro">Outro</option>
+        </select>
+      </label><br>
+      <label>Estado Civil: <input type="text" name="estadocivil"></label><br>
+
+      <h2>Dados da Empresa</h2>
+      <label>CNPJ: <input type="text" name="cnpj"></label><br>
+      <label>Razão Social: <input type="text" name="razao"></label><br>
+      <label>Ramo: <input type="text" name="ramo"></label><br>
+
+      <h2>Endereço</h2>
+      <label>CEP*: <input type="text" name="cep" required></label><br>
+      <label>Tipo de Logradouro*: 
+        <select required>
+          <option value="">Selecione</option>
+          <option value="rua">Rua</option>
+          <option value="avenida">Avenida</option>
+          <option value="praça">Praça</option>
+        </select>
+      </label><br>
+      <label>Logradouro*: <input type="text" required></label><br>
+      <label>Cidade*: <input type="text" required></label><br>
+      <label>Estado*: <input type="text" required></label><br>
+
+      <h2>Interesse</h2>
+      <textarea rows="4" cols="50" placeholder="Descreva seu interesse"></textarea><br>
+
+      <h2>Preferências</h2>
+      <label><input type="checkbox"> Opção 1</label>
+      <label><input type="checkbox"> Opção 2</label>
+      <label><input type="checkbox"> Opção 3</label>
+      <label><input type="checkbox"> Opção 4</label><br>
+
+      <label><input type="radio" name="escolha"> Item 1</label>
+      <label><input type="radio" name="escolha"> Item 2</label>
+      <label><input type="radio" name="escolha"> Item 3</label><br>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>Curriculo Vitae — Trabalho 1</p>
+  </footer>
+</body>
+</html>
