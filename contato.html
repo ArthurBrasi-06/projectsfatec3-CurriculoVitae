@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Página de contato para proposta de trabalho.">
+    <title>Contato - Trabalho 1</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Principal</a> |
+            <a href="galeria.html">Galeria</a> |
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Formulário de Contato</h1>
+            <p>Preencha os campos abaixo para entrar em contato com Leonardo Dias.</p>
+
+            <form action="#" method="post">
+                
+                <h2>Dados Pessoais</h2>
+                <p>
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" name="nome" required>
+                </p>
+                <p>
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+                <p>
+                    <label for="idade">Idade:</label><br>
+                    <input type="number" id="idade" name="idade" required>
+                </p>
+                <p>
+                    <label for="telefone">Telefone:</label><br>
+                    <input type="tel" id="telefone" name="telefone" required>
+                </p>
+                <p>
+                    <label for="data-nascimento">Data de Nascimento (opcional):</label><br>
+                    <input type="date" id="data-nascimento" name="data-nascimento">
+                </p>
+                <p>
+                    <label>Sexo (opcional):</label><br>
+                    <input type="radio" id="masculino" name="sexo" value="masculino">
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" id="feminino" name="sexo" value="feminino">
+                    <label for="feminino">Feminino</label>
+                    <input type="radio" id="outro-sexo" name="sexo" value="outro">
+                    <label for="outro-sexo">Outro</label>
+                </p>
+                <p>
+                    <label for="estado-civil">Estado Civil (opcional):</label><br>
+                    <select id="estado-civil" name="estado-civil">
+                        <option value="">Selecione</option>
+                        <option value="solteiro">Solteiro(a)</option>
+                        <option value="casado">Casado(a)</option>
+                        <option value="viuvo">Viúvo(a)</option>
+                        <option value="divorciado">Divorciado(a)</option>
+                    </select>
+                </p>
+                
+                <hr>
+
+                <h2>Dados da Empresa</h2>
+                <p>
+                    <label for="cnpj">CNPJ (opcional):</label><br>
+                    <input type="text" id="cnpj" name="cnpj">
+                </p>
+                <p>
+                    <label for="razao-social">Razão Social (opcional):</label><br>
+                    <input type="text" id="razao-social" name="razao-social">
+                </p>
+                <p>
+                    <label for="ramo-atuacao">Ramo de Atuação (opcional):</label><br>
+                    <input type="text" id="ramo-atuacao" name="ramo-atuacao">
+                </p>
+
+                <hr>
+
+                <h2>Endereço</h2>
+                <p>
+                    <label for="cep">CEP:</label><br>
+                    <input type="text" id="cep" name="cep" required>
+                </p>
+                <p>
+                    <label for="tipo-logradouro">Tipo de Logradouro:</label><br>
+                    <select id="tipo-logradouro" name="tipo-logradouro" required>
+                        <option value="">Selecione</option>
+                        <option value="rua">Rua</option>
+                        <option value="avenida">Avenida</option>
+                        <option value="praca">Praça</option>
+                        <option value="alameda">Alameda</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="logradouro">Logradouro:</label><br>
+                    <input type="text" id="logradouro" name="logradouro" required>
+                </p>
+                <p>
+                    <label for="cidade">Cidade:</label><br>
+                    <input type="text" id="cidade" name="cidade" required>
+                </p>
+                <p>
+                    <label for="estado">Estado:</label><br>
+                    <input type="text" id="estado" name="estado" required>
+                </p>
+
+                <hr>
+
+                <h2>Descrição Detalhada do Interesse</h2>
+                <p>
+                    <label for="interesse">Descreva seu interesse:</label><br>
+                    <textarea id="interesse" name="interesse" rows="5" cols="40"></textarea>
+                </p>
+
+                <hr>
+
+                <h2>Outro</h2>
+                <p>
+                    <label>Assuntos de interesse (checkboxes):</label><br>
+                    <input type="checkbox" id="vaga-analista" name="vaga-analista">
+                    <label for="vaga-analista">Vaga de Analista</label><br>
+                    <input type="checkbox" id="vaga-estagiario" name="vaga-estagiario">
+                    <label for="vaga-estagiario">Vaga de Estagiário</label><br>
+                    <input type="checkbox" id="parceria" name="parceria">
+                    <label for="parceria">Parceria</label><br>
+                    <input type="checkbox" id="contato-geral" name="contato-geral">
+                    <label for="contato-geral">Contato Geral</label>
+                </p>
+                <p>
+                    <label>Preferência de contato (rádios):</label><br>
+                    <input type="radio" id="email-preferencia" name="preferencia-contato" value="email">
+                    <label for="email-preferencia">E-mail</label><br>
+                    <input type="radio" id="telefone-preferencia" name="preferencia-contato" value="telefone">
+                    <label for="telefone-preferencia">Telefone</label><br>
+                    <input type="radio" id="whatsapp-preferencia" name="preferencia-contato" value="whatsapp">
+                    <label for="whatsapp-preferencia">WhatsApp</label>
+                </p>
+
+                <p>
+                    <button type="submit">Enviar Formulário</button>
+                </p>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
