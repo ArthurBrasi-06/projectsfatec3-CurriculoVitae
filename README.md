@@ -16,6 +16,7 @@ O site é composto por três páginas principais:
 
 ### Como Visualizar
 Para ver o site, basta abrir o arquivo `index.html` em qualquer navegador web. O projeto também está hospedado no GitHub Pages, disponível em:
+https://arthurbrasi-06.github.io/projectsfatec3-CurriculoVitae/index.html
 
 
 ---
